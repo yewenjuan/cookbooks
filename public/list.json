@@ -1,0 +1,229 @@
+{
+  "result": [
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4459544,
+      "positionName": "SAP开发程序员",
+      "city": "深圳",
+      "createTime": "今天 12:26",
+      "salary": "10k-15k",
+      "companyId": 319430,
+      "companyLogo": "i/image2/M01/B7/09/CgotOVwPEwOAdlgbAADkaOUin3U282.png",
+      "companyName": "沛顿科技",
+      "companyFullName": "沛顿科技（深圳）有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 3114998,
+      "positionName": "客服专员",
+      "city": "深圳",
+      "createTime": "今天 12:25",
+      "salary": "4k-5k",
+      "companyId": 90307,
+      "companyLogo": "image1/M00/43/D2/Cgo8PFXS7DKAXIT3AAJMyAOSU1I421.jpg?cc=0.688470643479377",
+      "companyName": "微讯旅游",
+      "companyFullName": "深圳市微讯科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 2962653,
+      "positionName": "商务拓展经理",
+      "city": "广州",
+      "createTime": "今天 12:17",
+      "salary": "10k-20k",
+      "companyId": 119752,
+      "companyLogo": "i/image/M00/14/77/Cgp3O1bpVq6ATUmcAAAVmpzM-Yw310.jpg",
+      "companyName": "Oneway.mobi",
+      "companyFullName": "广州万唯邑众信息科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4330342,
+      "positionName": "审核专员",
+      "city": "北京",
+      "createTime": "今天 12:05",
+      "salary": "6k-10k",
+      "companyId": 147,
+      "companyLogo": "i/image2/M01/79/70/CgotOV1aS4qAWK6WAAAM4NTpXws809.png",
+      "companyName": "拉勾网",
+      "companyFullName": "北京拉勾网络技术有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4425341,
+      "positionName": "UI设计师",
+      "city": "广州",
+      "createTime": "今天 12:02",
+      "salary": "8k-16k",
+      "companyId": 13553,
+      "companyLogo": "i/image2/M01/8A/A9/CgoB5luWOOuAZDskAAANCnW7MJI767.jpg",
+      "companyName": "广州游爱",
+      "companyFullName": "广州游爱网络技术有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 3305460,
+      "positionName": "游戏视频广告设计师",
+      "city": "广州",
+      "createTime": "今天 12:02",
+      "salary": "8k-15k",
+      "companyId": 13553,
+      "companyLogo": "i/image2/M01/8A/A9/CgoB5luWOOuAZDskAAANCnW7MJI767.jpg",
+      "companyName": "广州游爱",
+      "companyFullName": "广州游爱网络技术有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 3202280,
+      "positionName": "手机游戏测试工程师",
+      "city": "武汉",
+      "createTime": "今天 12:00",
+      "salary": "6k-12k",
+      "companyId": 142081,
+      "companyLogo": "i/image/M00/69/70/CgpFT1muILuAF9ByAABDHyY5Wf4289.png",
+      "companyName": "多比特",
+      "companyFullName": "武汉市多比特信息科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 3230780,
+      "positionName": "Android高级开发工程师",
+      "city": "武汉",
+      "createTime": "今天 12:00",
+      "salary": "12k-20k",
+      "companyId": 142081,
+      "companyLogo": "i/image/M00/69/70/CgpFT1muILuAF9ByAABDHyY5Wf4289.png",
+      "companyName": "多比特",
+      "companyFullName": "武汉市多比特信息科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 3644494,
+      "positionName": "市场经理",
+      "city": "北京",
+      "createTime": "今天 12:00",
+      "salary": "10k-20k",
+      "companyId": 166721,
+      "companyLogo": "i/image2/M01/AD/88/CgoB5l3d8IKAVHxRAAA4krr0Y0o139.jpg",
+      "companyName": "BitBays",
+      "companyFullName": "北京诺信永益科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4290111,
+      "positionName": "游戏系统策划",
+      "city": "北京",
+      "createTime": "今天 12:00",
+      "salary": "15k-23k",
+      "companyId": 117002,
+      "companyLogo": "i/image/M00/71/AB/Ciqc1F-_UISAVxy5AACFfIN4Hps880.png",
+      "companyName": "新创娱游",
+      "companyFullName": "北京新创娱游科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4367238,
+      "positionName": "游戏原画师",
+      "city": "北京",
+      "createTime": "今天 12:00",
+      "salary": "13k-25k",
+      "companyId": 117002,
+      "companyLogo": "i/image/M00/71/AB/Ciqc1F-_UISAVxy5AACFfIN4Hps880.png",
+      "companyName": "新创娱游",
+      "companyFullName": "北京新创娱游科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4350878,
+      "positionName": "前端工程师",
+      "city": "北京",
+      "createTime": "今天 11:58",
+      "salary": "15k-25k",
+      "companyId": 353193,
+      "companyLogo": "i/image/M00/85/E9/CgpEMlq7SE6AVALfAAA17QV8jm0436.png",
+      "companyName": "天驰传媒",
+      "companyFullName": "天驰传媒股份有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 2867762,
+      "positionName": "C++资深服务器软件工程师",
+      "city": "上海",
+      "createTime": "今天 11:50",
+      "salary": "20k-28k",
+      "companyId": 86809,
+      "companyLogo": "image2/M00/09/10/CgqLKVYGAluAM2LkAAA9y0DEEBc034.jpg",
+      "companyName": "欢动科技",
+      "companyFullName": "上海欢动科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4322834,
+      "positionName": "高级Java开发工程师",
+      "city": "北京",
+      "createTime": "今天 11:50",
+      "salary": "25k-50k",
+      "companyId": 248005,
+      "companyLogo": "i/image3/M00/18/80/CgpOIFp39ViAYZzRAABe95zfXoM989.png",
+      "companyName": "北京聚和天成科技有限公司",
+      "companyFullName": "北京聚和天成科技有限公司"
+    },
+    {
+      "logger": {
+        "traceCapable": true,
+        "name": "com.lagou.entity.mobile.MobilePosition"
+      },
+      "positionId": 4447195,
+      "positionName": "Java开发工程师",
+      "city": "北京",
+      "createTime": "今天 11:50",
+      "salary": "15k-30k",
+      "companyId": 248005,
+      "companyLogo": "i/image3/M00/18/80/CgpOIFp39ViAYZzRAABe95zfXoM989.png",
+      "companyName": "北京聚和天成科技有限公司",
+      "companyFullName": "北京聚和天成科技有限公司"
+    }
+  ]
+}
