@@ -1,0 +1,27 @@
+/* 解决位置填充非常重要的思想 瀑布流里也经常用 */
+.swipe {
+  height: 0;
+  font-size: 0;
+  padding-bottom: 62.222222%;
+  position: relative;
+}
+.slider.am-carousel {
+  position: static !important;
+}
+
+h3 {
+  height: 50px;
+  padding-left: 10px;
+  color: #666;
+  line-height: 50px;
+  font-weight: normal;
+  background-color: #fff;
+}
+.grid-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 4px;
+}
+.am-grid.am-grid-line .am-flexbox {
+  padding-bottom: 10px !important;
+}
