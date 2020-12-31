@@ -20,6 +20,7 @@ const {
     //  给文件夹取别名
      addWebpackAlias({      
         "@": path.resolve(__dirname, "./src"),
-        "@assets": path.resolve(__dirname, "./src/assets")      
+        "@assets": path.resolve(__dirname, "./src/assets"),      
+        "@com": path.resolve(__dirname, "./src/components"),      
      })
  );
