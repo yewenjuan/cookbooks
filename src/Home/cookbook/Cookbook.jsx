@@ -4,6 +4,7 @@ import { Container } from "./StyleCookBook";
 import Swiper from "./Swiper";
 import Search from "@com/Search";
 import HotCategory from "./HotCategory";
+import TopFood from "./TopFood"
 
 export default class Cookbook extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class Cookbook extends Component {
         <Swiper></Swiper>
         <Search></Search>
         <HotCategory></HotCategory>
+        <TopFood></TopFood>
       </Container>
     )
   }
