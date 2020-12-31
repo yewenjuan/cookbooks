@@ -21,7 +21,17 @@ h3 {
   width: 60px;
   height: 60px;
   margin-bottom: 4px;
+  border-radius: 6px;
+}
+.grid-item img[src*="pic1"] {
+  display: none;
 }
 .am-grid.am-grid-line .am-flexbox {
   padding-bottom: 10px !important;
+}
+.am-grid-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }

@@ -3,6 +3,7 @@ import { Grid } from "antd-mobile";
 
 export default class HotCategory extends Component {
   state = {
+    columnNum: 4,
     hotCateList: [
       {        
         title: "盘古烤猪蹄",
@@ -57,15 +58,27 @@ export default class HotCategory extends Component {
         title: "炭香园烤肉",
         imgUrl:require("@assets/images/c11.jpg")
       },
+      {        
+        title: "更多...",
+        imgUrl:require("@assets/images/pic1.jpg")
+      },
     ],
   };
+  componentDidMount() {
+    let width = window.innerWidth;
+    if(width < 375) {
+      this.setState({
+        columnNum: 3
+      })
+    }
+  }
   render() {
     return (
       <div>
         <h3>热门分类</h3>
         <Grid
           data={this.state.hotCateList}
-          columnNum={4}
+          columnNum={this.state.columnNum}
           renderItem={(dataItem) => (
             <div className="grid-item">
               <img
