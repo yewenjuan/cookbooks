@@ -19,7 +19,11 @@ import {getFoodListAsync} from "../../store/actions"
       <Container>
         <header>美食大全</header>
         <Swiper></Swiper>
-        <Search></Search>
+        <Search
+          outbg=""
+          innerbg="#fff"
+          hasBorder={true}
+        ></Search>
         <HotCategory list={list}></HotCategory>
         <TopFood list={list}></TopFood>
       </Container>

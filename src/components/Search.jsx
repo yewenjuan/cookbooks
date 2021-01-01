@@ -7,7 +7,7 @@ import {
 export default class Search extends Component {
   render() {
     return (
-     <Container>
+     <Container {...this.props}>
         <div>
         <svg
           t="1609315459244"

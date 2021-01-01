@@ -4,6 +4,7 @@ import {
  } from "antd-mobile";
 
  import CookBook from "./cookbook/Cookbook";
+ import CateGory from "./category/CateGory";
 
  import cookbook from "@assets/images/img11.jpg";
  import cookbookActive from "@assets/images/img1.jpg";
@@ -79,7 +80,7 @@ export default class Home extends Component {
             }}
             data-seed="logId1"
           >
-            <div>category</div>
+            <CateGory></CateGory>
           </TabBar.Item>
           <TabBar.Item
             icon={

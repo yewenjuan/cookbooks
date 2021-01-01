@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default function  TopFood(props) {
   if(props.list.hotCateList) {
     var topList = props.list.hotCateList.slice(0, 4);
-    console.log(topList);
   }else {
     return null
   }  
