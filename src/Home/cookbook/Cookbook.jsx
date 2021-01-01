@@ -21,7 +21,7 @@ import {getFoodListAsync} from "../../store/actions"
         <Swiper></Swiper>
         <Search></Search>
         <HotCategory list={list}></HotCategory>
-        <TopFood></TopFood>
+        <TopFood list={list}></TopFood>
       </Container>
     )
   }

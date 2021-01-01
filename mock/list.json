@@ -3,57 +3,90 @@
     {
       "id": "1",
       "title": "盘古烤猪蹄",
-      "imgUrl": "c1.jpg"
+      "imgUrl": "c1.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "2",
       "title": "名火汇烤肉",
-      "imgUrl": "c2.jpg"
+      "imgUrl": "c2.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "3",
       "title": "南瓜车造型",
-      "imgUrl": "c3.jpg"
+      "imgUrl": "c3.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "4",
       "title": "味多美",
-      "imgUrl": "c4.jpg"
+      "imgUrl": "c4.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "5",
       "title": "炙城烤肉",
-      "imgUrl": "c5.jpg"
+      "imgUrl": "c5.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "6",
       "title": "鑫海汇烤肉",
-      "imgUrl": "c6.jpg"
+      "imgUrl": "c6.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "7",
       "title": "上海1号私藏菜",
-      "imgUrl": "c7.jpg"
+      "imgUrl": "c7.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "8",
       "title": "一品鸡排",
-      "imgUrl": "c8.jpg"
+      "imgUrl": "c8.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "9",
       "title": "牛排自助餐厅",
-      "imgUrl": "c9.jpg"
+      "imgUrl": "c9.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "10",
       "title": "爱上自助火锅",
-      "imgUrl": "c10.jpg"
+      "imgUrl": "c10.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     },
     {
       "id": "11",
       "title": "炭香园烤肉",
-      "imgUrl": "c11.jpg"
+      "imgUrl": "c11.jpg",
+      "foodName": "爆炒牛肉",
+      "browse": 1000,
+      "connect": 1000
     }
   ]
 }
