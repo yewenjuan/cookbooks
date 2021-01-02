@@ -21,6 +21,8 @@ const {
      addWebpackAlias({      
         "@": path.resolve(__dirname, "./src"),
         "@assets": path.resolve(__dirname, "./src/assets"),      
-        "@com": path.resolve(__dirname, "./src/components"),      
+        "@com": path.resolve(__dirname, "./src/components"),   
+        "@a": path.resolve(__dirname, "./src/api"),
+        "@store": path.resolve(__dirname, "/src/store")   
      })
  );
