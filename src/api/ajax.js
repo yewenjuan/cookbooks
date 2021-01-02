@@ -1,8 +1,10 @@
 import axios from "axios";
 
-export function getData() {
+export function getData(url) {
   return new Promise((resolve, reject) => {
-    axios.get("/api/list").then(result => {
+    axios({
+      url
+    }).then(result => {
       resolve(result)
     }).catch(err => {
       reject(err)
