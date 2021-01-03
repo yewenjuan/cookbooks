@@ -7,6 +7,7 @@ export default class TopNav extends Component {
     tabIndex: 0
   }
   handleClick = (index) => {
+    this.props.handleTabClick(index);
     this.setState({
       tabIndex: index
     })

@@ -4,6 +4,7 @@ const MenuWrapper = styled.div `
   flex: 1;
   display: flex;
   overflow: hidden;
+  border-top: 1px solid #999;
   aside {
     width: 90px;
     overflow-y: scroll;
