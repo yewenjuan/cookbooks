@@ -5,6 +5,7 @@ import { MenuWrapper } from "./MenuStyle.js";
 
 export default function MenuList(props) {
   let cate = props.category;
+  let { curcate } = props;
   return (    
     <MenuWrapper>
       <aside>
@@ -12,7 +13,7 @@ export default function MenuList(props) {
           {
             cate && Object.keys(cate).map(value => {
               return  <li 
-                className={props.curcate === value ? "active" : ""} 
+                className={curcate === value ? "active" : ""} 
                 key={value}
                 onClick={() => props.handleAsideClick(value)}
                 >
@@ -23,15 +24,15 @@ export default function MenuList(props) {
        
         </ul>
       </aside>
-      {/* <section>
+      <section>
         <ul>
           {
-            cate && cate[props.curcate].map((value, index) => (
+            cate && cate[curcate].map((value, index) => (
               <li key={index}>{value}</li>
             ))
           }
         </ul>
-      </section> */}
+      </section>
     </MenuWrapper>
   )
 }  

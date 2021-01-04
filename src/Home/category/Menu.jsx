@@ -6,6 +6,7 @@ import {getData} from "@a/ajax.js"
 export default class Menu extends Component {
   state = {
     category: null,
+    type: "category",
     curcate: this.props.type === "category" ? "热门" : "肉类"
   }
  async componentDidMount() {
@@ -14,6 +15,17 @@ export default class Menu extends Component {
       category: response.data.data
     })
   }
+  static getDerivedStateFromProps(nextProps, preState) {
+    if(nextProps.type === preState.type) {
+      return null
+    }else {
+      return {
+        curcate: nextProps.type === "category" ? "热门" : "肉类",
+        type: nextProps.type
+      }
+    }
+  }
+
   handleAsideClick = (value) => {
       this.setState({
         curcate: value

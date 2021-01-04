@@ -5,6 +5,7 @@ import {
 
  import CookBook from "./cookbook/Cookbook";
  import CateGory from "./category/CateGory";
+ import Map from "./map/map"
 
  import cookbook from "@assets/images/img11.jpg";
  import cookbookActive from "@assets/images/img1.jpg";
@@ -106,7 +107,7 @@ export default class Home extends Component {
               });
             }}
           >
-            <div>map</div>
+            <Map></Map>
           </TabBar.Item>
           <TabBar.Item
             icon={{ uri: `${more}` }}
