@@ -23,6 +23,6 @@ const {
         "@assets": path.resolve(__dirname, "./src/assets"),      
         "@com": path.resolve(__dirname, "./src/components"),   
         "@a": path.resolve(__dirname, "./src/api"),
-        "@store": path.resolve(__dirname, "/src/store")   
+        "@store": path.resolve(__dirname, "./src/store")   
      })
  );
