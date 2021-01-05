@@ -1,9 +1,12 @@
-import { GET_DATA } from "./action-type";
+import { GET_DATA, SHOW_MAP } from "./action-type";
 import { getData } from "@a/ajax.js";
 
 // 成功的同步分发
 // 获取美食大全的数据
 const getFoodList = (list) => ({type: GET_DATA, data: list});
+
+// 是否显示地图
+const hasShowMap = (data) => ({type: SHOW_MAP, data: data})
 
 // 异步调用接口获取列表数据
 const getFoodListAsync = () => {
@@ -17,5 +20,6 @@ const getFoodListAsync = () => {
 }
 
 export {
-  getFoodListAsync
+  getFoodListAsync,
+  hasShowMap
 }

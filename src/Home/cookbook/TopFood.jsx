@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react';
+
+import { TextEllipsis } from "./StyleCookBook"
 
 export default function  TopFood(props) {
   if(props.list.hotCateList) {
@@ -18,7 +20,7 @@ export default function  TopFood(props) {
               </div>
               <div>
                 <p>{value.foodName}</p>
-                <p><span>{value.browse}</span>次浏览<span>{value.connect}</span>次收藏</p>
+                <TextEllipsis rowNum={1}><span>{value.browse}</span>次浏览<span>{value.connect}</span>次收藏</TextEllipsis>
               </div>
             </li>
           ))

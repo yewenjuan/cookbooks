@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import {ellipsis} from "@assets/styled/ellipsis"
+
 const Container = styled.div `
   header {
     height: 44px;
@@ -11,6 +13,11 @@ const Container = styled.div `
   }
 `
 
+const TextEllipsis = ellipsis(
+  styled.p ``
+)
+
 export {
-  Container
+  Container,
+  TextEllipsis
 }
