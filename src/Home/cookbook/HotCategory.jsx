@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Grid } from "antd-mobile";
+import { withRouter } from "react-router-dom";
 
-export default class HotCategory extends Component {
+class HotCategory extends Component {
   state = {
     columnNum: 4,    
   };
@@ -13,11 +14,17 @@ export default class HotCategory extends Component {
       })
     }    
   }
+  // 跳转到列表页
+  handleClick = ({title}) => {
+    let { history } = this.props;
+    history.push("/list", {title})
+  }
+
   render() {   
     let {hotCateList} = this.props.list;  
     return (
       <div>
-        <h3>热门分类</h3>
+        <h3 className="hotcategory">热门分类</h3>
         <Grid
           data={hotCateList}
           columnNum={this.state.columnNum}
@@ -33,8 +40,11 @@ export default class HotCategory extends Component {
               </div>
             </div>
           )}
+          onClick={(dataItem) => this.handleClick(dataItem)}
         />
       </div>
     );
   }
 }
+
+export default withRouter(HotCategory)

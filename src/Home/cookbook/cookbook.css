@@ -9,7 +9,7 @@
   position: static !important;
 }
 /* 热门分类 */
-h3 {
+.hotcategory {
   height: 50px;
   padding-left: 10px;
   color: #666;

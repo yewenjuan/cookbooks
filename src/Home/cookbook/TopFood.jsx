@@ -10,7 +10,7 @@ export default function  TopFood(props) {
   }  
   return (
     <div>
-      <h3 className="top-text">精品分类</h3>
+      <h3 className="top-text hotcategory">精品分类</h3>
       <ul className="top-food">
         {
           topList.map(value => (
