@@ -13,13 +13,14 @@ export default class TopNav extends Component {
     })
   }
   render() {
+    let {cateType} = this.props;
     return (
       <div>
         <nav>
           <ul className="nav">
-            <li className={this.state.tabIndex === 0 ? "active" : ""} onClick={() => this.handleClick(0)}>分类</li>
-            <li className={this.state.tabIndex === 1 ? "active" : ""} onClick={() => this.handleClick(1)}>食材</li>
-            <li className={this.state.tabIndex === 0 ? 'slider' : "slider right"}></li>
+            <li className={cateType === "category" ? "active" : ""} onClick={() => this.handleClick('category')}>分类</li>
+            <li className={cateType === "material" ? "active" : ""} onClick={() => this.handleClick('material')}>食材</li>
+            <li className={cateType === "category" ? 'slider' : "slider right"}></li>
           </ul>
         </nav>
       </div>

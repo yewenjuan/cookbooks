@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
-const StyleList = styled.ul `
-  li {
+import border from "@assets/styled/border.js"
+
+const StyleList = border(
+  styled.li `
     display: flex;
     padding: 10px;
+    background-color: #fff;
     img {
       margin-right: 15px;
     }
@@ -22,8 +25,8 @@ const StyleList = styled.ul `
         color: #999;
       }
     }
-  }
 `
+)
 export {
   StyleList
 }

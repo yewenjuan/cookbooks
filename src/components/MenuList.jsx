@@ -1,11 +1,14 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 
 import { MenuWrapper } from "./MenuStyle.js";
 
-
-export default function MenuList(props) {
-  let cate = props.category;
+ function MenuList(props) {
+  let cate = props.category;  
   let { curcate } = props;
+  function handleClick(title) {
+    props.history.push("/list", {title})
+  }
   return (    
     <MenuWrapper>
       <aside>
@@ -27,8 +30,11 @@ export default function MenuList(props) {
       <section>
         <ul>
           {
-            cate && cate[curcate].map((value, index) => (
-              <li key={index}>{value}</li>
+            cate && curcate && cate[curcate].map((value, index) => (
+              <li 
+                key={index}
+                onClick={() => handleClick(value)}
+              >{value}</li>
             ))
           }
         </ul>
@@ -36,5 +42,7 @@ export default function MenuList(props) {
     </MenuWrapper>
   )
 }  
+
+export default withRouter(MenuList)
  
 

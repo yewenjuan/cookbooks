@@ -4,6 +4,8 @@ import {
   TabBar
  } from "antd-mobile";
 
+ import { getSelectedTab } from "@store/actions.js"
+
  import CookBook from "./cookbook/Cookbook";
  import CateGory from "./category/CateGory";
  import Map from "./map/map";
@@ -28,8 +30,17 @@ class Home extends Component {
   //   let {checked} = this.props.map;
   //   this.props.hasShowMap(checked);
   // }
+
+  handleSelectTab = (value) => {
+    this.props.getSelectedTab(value)
+    this.setState({
+      selectedTab: value
+    })
+  }
+
   render() {
     let {checked} = this.props.map;
+    let {selectedTab} = this.props.info.routeInfo;
     // 因为是动态的，所以讲组件放到数组里，antd-mobile本身有bug只能采用这个方法
     let tabBarItems = [
       <TabBar.Item
@@ -47,12 +58,8 @@ class Home extends Component {
               background: `url(${cookbookActive}) center center /  21px 21px no-repeat` }}
             />
             }
-            selected={this.state.selectedTab === 'cookbook'}
-            onPress={() => {
-              this.setState({
-                selectedTab: 'cookbook',
-              });
-            }}
+            selected={ selectedTab === "cookbook"}
+            onPress={() => this.handleSelectTab('cookbook')}
             data-seed="logId"
           >
             <CookBook></CookBook>
@@ -74,12 +81,9 @@ class Home extends Component {
             }
             title="分类"
             key="category"
-            selected={this.state.selectedTab === 'category'}
-            onPress={() => {
-              this.setState({
-                selectedTab: 'category',
-              });
-            }}
+            selected={selectedTab === "category"}
+            onPress={() => this.handleSelectTab('category')}
+
             data-seed="logId1"
           >
             <CateGory></CateGory>
@@ -101,12 +105,9 @@ class Home extends Component {
             }
             title="地图"
             key="map"
-            selected={this.state.selectedTab === 'map'}
-            onPress={() => {
-              this.setState({
-                selectedTab: 'map',
-              });
-            }}
+            selected={selectedTab === "map"}
+            onPress={() => this.handleSelectTab('map')}
+
           >
             <Map></Map>
           </TabBar.Item>,
@@ -115,12 +116,8 @@ class Home extends Component {
             selectedIcon={{ uri: `${moreActive}` }}
             title="more"
             key="more"
-            selected={this.state.selectedTab === 'more'}
-            onPress={() => {
-              this.setState({
-                selectedTab: 'more',
-              });
-            }}
+            selected={selectedTab === "more"}
+            onPress={() => this.handleSelectTab('more')}
           >
             <More></More>
           </TabBar.Item>
@@ -142,4 +139,6 @@ class Home extends Component {
   }
 }
 
-export default connect(state => ({map: state.map}))(Home)
+export default connect(state => ({map: state.map, info: state.info}),
+  { getSelectedTab }
+)(Home)
