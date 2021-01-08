@@ -6,6 +6,10 @@ import { StyleNav } from "../Home/more/StyledMore";
 import {StyleList} from "./StyleList";
 import { getFoodListAsync } from "@store/actions.js";
 
+// function  willWithRouter(com) {
+//   return withRouter(com)
+// }
+
 class List extends Component {
 
   componentDidMount() {
@@ -14,6 +18,10 @@ class List extends Component {
   handleLeftClick = () => {
     let { history } = this.props;
     history.go(-1)
+  }
+  // 去详情
+  handleGoDetail = (data) => {
+    this.props.history.push("/detail", {title: data.title})
   }
   render() {
     let { hotCateList } = this.props.list.list;
@@ -36,6 +44,7 @@ class List extends Component {
                 width="0 0 1px 0"
                 color="#eee"
                 key={value.id}
+                onClick={() => this.handleGoDetail(value)}
               >
                 <div>
                   <img src={require(`../assets/images/${value.imgUrl}`).default} alt="" style={{width: '115px', height:"75px"}}/>

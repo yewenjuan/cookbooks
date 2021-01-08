@@ -16,7 +16,6 @@ class CateGory extends Component {
     //   tabIndex: index,
     //   // type: index === 0 ? "category" : "material"
     // })
-    console.log(type);
     this.props.getTopNavInfo(type);
     this.props.getAside(type === "category" ? "热门" : "肉类")
   }
