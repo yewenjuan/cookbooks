@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 import App from "./App.jsx";
 import store from "./store/store";
 import "./assets/style/reset.css";
+import "animate.css";
 
 ReactDOM.render(
   <Router>
